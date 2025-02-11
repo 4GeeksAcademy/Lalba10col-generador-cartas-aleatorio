@@ -1,5 +1,52 @@
 @import "bootstrap/dist/css/bootstrap.min.css";
 
-body{
-    background: blue;
+body {
+    background-color: green;
+}
+
+.carta {
+    margin: auto;
+    margin-top: 50px;
+    width: 300px;
+    height: 450px;
+    border-radius: 10px;
+    background-color: white;
+    position: relative;
+}
+
+.Superior {
+    position: absolute;
+    font-size: 85px;
+    font-family: arial;
+    margin: 0;
+    top: 10px;
+    left: 10px;
+}
+
+.Central {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 150px;
+    font-size: 100px;
+    font-family: arial;
+    position: relative;
+    top: 150px;
+}
+
+.Inferior {
+    position: absolute;
+    font-size: 85px;
+    font-family: arial;
+    margin: 0;
+    bottom: 10px;
+    right: 10px;
+    transform: rotate(180deg);
+}
+
+.btnActualizar {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
 }
